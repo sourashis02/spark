@@ -1,0 +1,24 @@
+nav{
+	transition-duration: 0.5s;
+	box-shadow: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+nav a{
+	color: white;
+	background: transparent;
+	padding-right: 5px;
+}
+nav a:hover{
+	background: white;
+	color: black;
+	border-radius: 5px;
+	box-shadow: 5px 5px #888;
+}
+.activated
+{
+	background: white;
+	color: black!important;
+	border-radius: 5px;
+	box-shadow: 5px 5px #888;
+}

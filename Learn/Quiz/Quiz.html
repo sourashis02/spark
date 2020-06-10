@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="../../Home/favicon.ico" />
+
+    <title>S P A R K : Quiz</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../Home/stylehome.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')
+    </script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Quiz.css">
+    <style>
+        a {
+            margin-right: 20px;
+            font-weight: bold;
+        }
+        
+        h1,
+        h2,
+        p {
+            font-family: 'Josefin Sans', sans-serif!important;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md naveffect" style="padding: 0px; font-weight: bold; font-family: monospace; font-size: 18px;">
+            <a class="navbar-brand" href="../../index.html" style="font-size:24px; margin-left: 50px;margin-top: 20px;"><img src="../../Home/logo.png" style="padding-right: 20px;height:60px">S P A R K</a>
+            <button class="navbar-toggler bg-grey navbar-dark" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse justify-content-end" style="padding-right: 50px;" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link top-menu" href="../../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link activated next-menu-1" href="../Learn.html">Learn <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link next-menu-5" href="../../index.html#about-us">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link next-menu-6" href="../../index.html#contact">Contact Us <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h1 id="level"> Choose the Difficulty Level and Take the Quiz </h1>
+    <div class="container">
+        <div class="left-col">
+            <div class="row mb-5">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-12 sub" id="math">
+                    <h1> THE MATH QUIZ </h1>
+                    <button class="button" onClick="parent.open('MathEasyQuiz.html')"><span>Easy </span></button>
+                    <button class="button" onClick="parent.open('MathMedQuiz.html')"><span>Medium </span></button>
+                    <button class="button" onClick="parent.open('MathHardQuiz.html')"><span>Hard </span></button>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-12 sub" id="sci">
+                    <h1> THE SCIENCE QUIZ </h1>
+                    <button class="button" onClick="parent.open('scienceeasy.html')"><span>Easy </span></button>
+                    <button class="button" onClick="parent.open('sciencemedium.html')"><span>Medium </span></button>
+                    <button class="button" onClick="parent.open('sciencehard.html')"><span>Hard </span></button>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-12 sub" id="eng">
+                    <h1> THE ENGLISH QUIZ </h1>
+                    <button class="button" onClick="parent.open('EnglishEasyquiz.html')" )><span>Easy </span></button>
+                    <button class="button" onClick="parent.open('EnglishMedquiz.html')"><span>Medium </span></button>
+                    <button class="button" onClick="parent.open('EnglishHardquiz.html')"><span>Hard </span></button>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-12 sub" id="gk">
+                    <h1> THE G.K. QUIZ </h1>
+                    <button class="button" onClick="parent.open('gkeasy.html')"><span>Easy </span></button>
+                    <button class="button" onClick="parent.open('gkmedium.html')"><span>Medium </span></button>
+                    <button class="button" onClick="parent.open('gkhard.html')"><span>Hard </span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p id="copyright" style="position: relative;bottom: -50px">Copyright © 2020 SPARK, Inc. All rights reserved.</p>
+</body>
